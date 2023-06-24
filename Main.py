@@ -7,9 +7,9 @@ from Funciones import *
 
 pygame.init()
 pygame.mixer.init()
-audio_disparo_nave = pygame.mixer.Sound("Audios\laser.wav")
-audio_choque_nave = pygame.mixer.Sound("Audios\explosion.wav")
-audio_eliminar_enemigo = pygame.mixer.Sound("Audios\golpe.wav")
+audio_disparo_nave = pygame.mixer.Sound("Imagenes\laser.wav")
+audio_choque_nave = pygame.mixer.Sound("Imagenes\explosion.wav")
+audio_eliminar_enemigo = pygame.mixer.Sound("Imagenes\golpe.wav")
 audio_disparo_nave.set_volume(0.3)
 audio_choque_nave.set_volume(0.3)
 audio_eliminar_enemigo.set_volume(0.3)
