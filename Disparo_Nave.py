@@ -1,7 +1,5 @@
 import pygame
 from Constantes import *
-import random
-#from Naves_enemigas import Enemigos
 
 class Disparos():
     def __init__(self, x, y,ruta):

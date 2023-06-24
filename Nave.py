@@ -1,6 +1,7 @@
 import pygame
 from Constantes import *
 from Disparo_Nave import Disparos
+
 class Nave:
     def __init__(self):
         self.imagen = pygame.image.load("Imagenes/nave.png")

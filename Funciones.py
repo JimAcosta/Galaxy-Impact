@@ -101,7 +101,7 @@ def colicionar(lista_disparos_nave,lista_enemigos,pantalla,nave,audio):
                 if disparo.rect.colliderect(enemigo.rect):
                     lista_enemigos.remove(enemigo)
                     audio.play()
-                    nave.puntaje += 3
+                    nave.puntaje += 35
                     return nave.puntaje
                 
 def guardar_archivo(nombre_archivo:str,contenido_a_guardar:str)->bool:

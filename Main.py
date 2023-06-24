@@ -3,7 +3,6 @@ from Constantes import *
 from Fondos import Fondo
 from Nave import Nave
 from Naves_enemigas import Enemigos
-from Instrucciones import manual
 from Funciones import *
 
 pygame.init()
@@ -23,7 +22,6 @@ disparos_izquierda = []
 disparos_derecha = []
 disparos_enemigos = []
 font = pygame.font.SysFont("Gotham", 25)
-mostrar_fondo = False
 flag_correr = True
 flag_inicio = True
 flag_perder = False

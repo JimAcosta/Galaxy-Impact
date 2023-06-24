@@ -1,7 +1,5 @@
 import pygame
 from Constantes import *
-import random
-#from Naves_enemigas import Enemigos
 
 class Disparo_Enemigo():
     def __init__(self, ruta):
@@ -31,5 +29,6 @@ class Disparo_Enemigo():
         
         if pantalla.blit(self.imagen, self.rect):
             return True
+        
     def desaparecer(self):
         self.flag = False
